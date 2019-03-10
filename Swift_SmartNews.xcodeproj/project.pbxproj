@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98C8F7F0A6CF174305D72E1B /* Pods_Swift_SmartNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5E039E47B0BF4F66364C06 /* Pods_Swift_SmartNews.framework */; };
 		B00F2942222F8DE400E1D45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2941222F8DE400E1D45A /* AppDelegate.swift */; };
 		B00F2944222F8DE400E1D45A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2943222F8DE400E1D45A /* ViewController.swift */; };
 		B00F2947222F8DE400E1D45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00F2945222F8DE400E1D45A /* Main.storyboard */; };
 		B00F2949222F8DE500E1D45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00F2948222F8DE500E1D45A /* Assets.xcassets */; };
 		B00F294C222F8DE500E1D45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00F294A222F8DE500E1D45A /* LaunchScreen.storyboard */; };
+		B00F2957222F8EB100E1D45A /* AMTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2954222F8EB100E1D45A /* AMTabButton.swift */; };
+		B00F2958222F8EB100E1D45A /* AMPagerTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2955222F8EB100E1D45A /* AMPagerTabsViewController.swift */; };
+		B00F2959222F8EB100E1D45A /* AMLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2956222F8EB100E1D45A /* AMLineView.swift */; };
+		B00F295B222F905F00E1D45A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F295A222F905F00E1D45A /* UIColorExtension.swift */; };
+		B00F295D222F90D100E1D45A /* SimpleParallax.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F295C222F90D100E1D45A /* SimpleParallax.swift */; };
+		B00F295F222F93AF00E1D45A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B00F295E222F93AF00E1D45A /* GoogleService-Info.plist */; };
+		B00F2961222F97D400E1D45A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2960222F97D400E1D45A /* StartViewController.swift */; };
+		B00F2963222FA61C00E1D45A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2962222FA61C00E1D45A /* ViewController2.swift */; };
+		B00F2965222FA63D00E1D45A /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2964222FA63D00E1D45A /* ViewController3.swift */; };
+		B00F2967222FA64700E1D45A /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2966222FA64700E1D45A /* ViewController4.swift */; };
+		B00F2969222FB43E00E1D45A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F2968222FB43E00E1D45A /* WebViewController.swift */; };
+		B00F296B222FC43900E1D45A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F296A222FC43900E1D45A /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BD0C909E0D0EAB3A0C95648 /* Pods-Swift_SmartNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_SmartNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_SmartNews/Pods-Swift_SmartNews.release.xcconfig"; sourceTree = "<group>"; };
 		B00F293E222F8DE400E1D45A /* Swift_SmartNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_SmartNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00F2941222F8DE400E1D45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B00F2943222F8DE400E1D45A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,20 @@
 		B00F2948222F8DE500E1D45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00F294B222F8DE500E1D45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00F294D222F8DE500E1D45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00F2954222F8EB100E1D45A /* AMTabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMTabButton.swift; sourceTree = "<group>"; };
+		B00F2955222F8EB100E1D45A /* AMPagerTabsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMPagerTabsViewController.swift; sourceTree = "<group>"; };
+		B00F2956222F8EB100E1D45A /* AMLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMLineView.swift; sourceTree = "<group>"; };
+		B00F295A222F905F00E1D45A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = "DTGradientButton-master/Example/DTGradientButton/UIColorExtension.swift"; sourceTree = SOURCE_ROOT; };
+		B00F295C222F90D100E1D45A /* SimpleParallax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleParallax.swift; path = "SimpleParallax-master/SimpleParallax.swift"; sourceTree = SOURCE_ROOT; };
+		B00F295E222F93AF00E1D45A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B00F2960222F97D400E1D45A /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		B00F2962222FA61C00E1D45A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B00F2964222FA63D00E1D45A /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		B00F2966222FA64700E1D45A /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		B00F2968222FB43E00E1D45A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B00F296A222FC43900E1D45A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B23D9B48E92070407BB93144 /* Pods-Swift_SmartNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_SmartNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_SmartNews/Pods-Swift_SmartNews.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5E039E47B0BF4F66364C06 /* Pods_Swift_SmartNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_SmartNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98C8F7F0A6CF174305D72E1B /* Pods_Swift_SmartNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FF0D6C788DA2C3354819D6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD5E039E47B0BF4F66364C06 /* Pods_Swift_SmartNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F60C0CE12DC0A17E1BB02AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B23D9B48E92070407BB93144 /* Pods-Swift_SmartNews.debug.xcconfig */,
+				7BD0C909E0D0EAB3A0C95648 /* Pods-Swift_SmartNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B00F2935222F8DE400E1D45A = {
 			isa = PBXGroup;
 			children = (
 				B00F2940222F8DE400E1D45A /* Swift_SmartNews */,
 				B00F293F222F8DE400E1D45A /* Products */,
+				7F60C0CE12DC0A17E1BB02AD /* Pods */,
+				1FF0D6C788DA2C3354819D6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,15 +102,36 @@
 		B00F2940222F8DE400E1D45A /* Swift_SmartNews */ = {
 			isa = PBXGroup;
 			children = (
+				B00F2953222F8EB100E1D45A /* AMPagerTabs */,
 				B00F2941222F8DE400E1D45A /* AppDelegate.swift */,
+				B00F2960222F97D400E1D45A /* StartViewController.swift */,
 				B00F2943222F8DE400E1D45A /* ViewController.swift */,
+				B00F2962222FA61C00E1D45A /* ViewController2.swift */,
+				B00F2964222FA63D00E1D45A /* ViewController3.swift */,
+				B00F2966222FA64700E1D45A /* ViewController4.swift */,
+				B00F295A222F905F00E1D45A /* UIColorExtension.swift */,
+				B00F295C222F90D100E1D45A /* SimpleParallax.swift */,
 				B00F2945222F8DE400E1D45A /* Main.storyboard */,
+				B00F296A222FC43900E1D45A /* Post.swift */,
+				B00F2968222FB43E00E1D45A /* WebViewController.swift */,
 				B00F2948222F8DE500E1D45A /* Assets.xcassets */,
 				B00F294A222F8DE500E1D45A /* LaunchScreen.storyboard */,
 				B00F294D222F8DE500E1D45A /* Info.plist */,
+				B00F295E222F93AF00E1D45A /* GoogleService-Info.plist */,
 			);
 			path = Swift_SmartNews;
 			sourceTree = "<group>";
+		};
+		B00F2953222F8EB100E1D45A /* AMPagerTabs */ = {
+			isa = PBXGroup;
+			children = (
+				B00F2954222F8EB100E1D45A /* AMTabButton.swift */,
+				B00F2955222F8EB100E1D45A /* AMPagerTabsViewController.swift */,
+				B00F2956222F8EB100E1D45A /* AMLineView.swift */,
+			);
+			name = AMPagerTabs;
+			path = "AMPagerTabs-master/AMPagerTabs/AMPagerTabs";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -71,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B00F2950222F8DE500E1D45A /* Build configuration list for PBXNativeTarget "Swift_SmartNews" */;
 			buildPhases = (
+				EE50B70145CB4B3ED3F54513 /* [CP] Check Pods Manifest.lock */,
 				B00F293A222F8DE400E1D45A /* Sources */,
 				B00F293B222F8DE400E1D45A /* Frameworks */,
 				B00F293C222F8DE400E1D45A /* Resources */,
+				77DCBE8C473E78650DFC5DE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00F294C222F8DE500E1D45A /* LaunchScreen.storyboard in Resources */,
+				B00F295F222F93AF00E1D45A /* GoogleService-Info.plist in Resources */,
 				B00F2949222F8DE500E1D45A /* Assets.xcassets in Resources */,
 				B00F2947222F8DE400E1D45A /* Main.storyboard in Resources */,
 			);
@@ -130,13 +202,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77DCBE8C473E78650DFC5DE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swift_SmartNews/Pods-Swift_SmartNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/DTGradientButton/DTGradientButton.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTGradientButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift_SmartNews/Pods-Swift_SmartNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE50B70145CB4B3ED3F54513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift_SmartNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B00F293A222F8DE400E1D45A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00F2965222FA63D00E1D45A /* ViewController3.swift in Sources */,
+				B00F2958222F8EB100E1D45A /* AMPagerTabsViewController.swift in Sources */,
+				B00F2967222FA64700E1D45A /* ViewController4.swift in Sources */,
+				B00F2961222F97D400E1D45A /* StartViewController.swift in Sources */,
+				B00F296B222FC43900E1D45A /* Post.swift in Sources */,
+				B00F2963222FA61C00E1D45A /* ViewController2.swift in Sources */,
 				B00F2944222F8DE400E1D45A /* ViewController.swift in Sources */,
 				B00F2942222F8DE400E1D45A /* AppDelegate.swift in Sources */,
+				B00F2969222FB43E00E1D45A /* WebViewController.swift in Sources */,
+				B00F2959222F8EB100E1D45A /* AMLineView.swift in Sources */,
+				B00F295D222F90D100E1D45A /* SimpleParallax.swift in Sources */,
+				B00F2957222F8EB100E1D45A /* AMTabButton.swift in Sources */,
+				B00F295B222F905F00E1D45A /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +426,7 @@
 		};
 		B00F2951222F8DE500E1D45A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23D9B48E92070407BB93144 /* Pods-Swift_SmartNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +445,7 @@
 		};
 		B00F2952222F8DE500E1D45A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD0C909E0D0EAB3A0C95648 /* Pods-Swift_SmartNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
